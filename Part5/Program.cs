@@ -8,7 +8,7 @@
             int cats = 30;
             int dogs = 15;
             Console.WriteLine("People: " + people + " Dogs: " + dogs + " Cats: " + cats);
-            if (people < cats)
+            if (people > cats)
             {
                 Console.WriteLine("Too many cats! The world is doomed!");
             }
@@ -41,7 +41,14 @@
             {
                 Console.WriteLine("People are dogs.");
             }
-            // 
+            // 1. runs -- or doesn't run -- certain blocks of code based on what a previous condition is.
+            // 2. so you can put what you want to happen when the condition is true and the code runs. (more than one line of code).
+
+            string dinosaur;
+            Console.WriteLine("What famous dinosaur has three large horns?");
+            dinosaur = Console.ReadLine();
+            if (dinosaur.ToLower() == "triceratops")
+                Console.WriteLine("You are correct!");
         }
     }
 }
