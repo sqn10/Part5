@@ -49,6 +49,21 @@
             dinosaur = Console.ReadLine();
             if (dinosaur.ToLower() == "triceratops")
                 Console.WriteLine("You are correct!");
+
+            Task1();
+        }
+        public static void Task1()
+        {
+            string magicWord;
+
+            Console.WriteLine("What is the magic word?");
+            magicWord = Console.ReadLine();
+            if (magicWord.ToLower() == "please");
+                Console.WriteLine("Thank you!");
+        }
+        public static void Task2()
+        {
+
         }
     }
 }
